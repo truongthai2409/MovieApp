@@ -62,7 +62,7 @@ const MoviePage = () => {
   console.log(data)
   const handlePageClick = (event) => {
     const newOffset = (event.selected * itemsPerPage) % data.total_results;
-    //tinh toan vi tri moi cua phan tu dau tien
+    //tinh toan vi tri moi cua phan tu dau tien cua compment
     setItemOffset(newOffset);
     setCurrentPage(event.selected + 1);
   };
